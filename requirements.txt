@@ -1,0 +1,5 @@
+flask==2.3.3
+requests==2.32.0
+python-dotenv==1.0.0
+google-auth==2.22.0
+google-cloud-aiplatform==1.38.0
