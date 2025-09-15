@@ -1,0 +1,14 @@
+backend/
+│── app.py             
+│── routes/
+│    ├── offer.py      
+│    ├── leads.py      
+│    ├── score.py       
+│── services/
+│    ├── rules.py       
+│    ├── ai.py          
+│── utils/
+│    └── storage.py     
+│── requirements.txt    
+
+
