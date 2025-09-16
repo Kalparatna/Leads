@@ -2,6 +2,7 @@ from flask import Flask
 from routes.offer import offer_bp
 from routes.leads import leads_bp
 from routes.score import score_bp
+import os
 
 app = Flask(__name__)
 
@@ -15,5 +16,7 @@ def health_check():
     """Health check endpoint"""
     return {"status": "healthy", "message": "Lead Scoring API is running"}, 200
 
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))  
+    app.run(host="0.0.0.0", port=port)
