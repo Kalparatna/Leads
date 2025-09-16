@@ -142,7 +142,7 @@ Respond in 1 line with the label first followed by reasoning.
 
 1. **Clone the repository:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/Kalparatna/Leads.git
 cd lead-scoring-api
 ```
 
